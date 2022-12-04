@@ -439,3 +439,25 @@ JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'DevToolsFrame'
 1669822523847	Marionette	INFO	Stopped listening on port 12791
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
 [Parent 31036, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1670163944370	geckodriver	INFO	Listening on 127.0.0.1:25597
+1670163947410	mozrunner::runner	INFO	Running command: "C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe" "--marionette" "--remote-debugging-port" "25598" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\notss\\AppData\\Local\\Temp\\rust_mozprofileHFLK4S"
+1670163947733	Marionette	INFO	Marionette enabled
+1670163947740	Marionette	INFO	Listening on port 25629
+WebDriver BiDi listening on ws://127.0.0.1:25598
+Read port: 25629
+1670163948086	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\notss\\AppData\\Local\\Temp\\rust_mozprofileHFLK4S\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:25598/devtools/browser/e17e51ba-539f-4987-9723-89dd5e4b3823
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ivvM4/yN/l/ro_RO/5XYfhF_nAnf.js?_nc_x=Ij3Wp8lg5Kz, line 27: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1670163976860	Marionette	INFO	Stopped listening on port 25629
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1670163990608	geckodriver	INFO	Listening on 127.0.0.1:25934
+1670163993650	mozrunner::runner	INFO	Running command: "C:\\\\Program Files\\\\Mozilla Firefox\\\\firefox.exe" "--marionette" "--remote-debugging-port" "25935" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\notss\\AppData\\Local\\Temp\\rust_mozprofileuHVeVH"
+1670163993927	Marionette	INFO	Marionette enabled
+1670163993931	Marionette	INFO	Listening on port 25961
+WebDriver BiDi listening on ws://127.0.0.1:25935
+Read port: 25961
+1670163994095	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\notss\\AppData\\Local\\Temp\\rust_mozprofileuHVeVH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:25935/devtools/browser/defbb595-e6ea-4a0b-8e8f-54a8342905b6
+JavaScript error: resource://gre/modules/URIFixup.sys.mjs, line 304: NS_ERROR_FAILURE: Should pass a non-null uri
